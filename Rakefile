@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "em-http-request-multipart"
   gem.homepage = "http://github.com/kotato/em-http-request-multipart"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Minimalistic multipart/form-data encoding support for EM::HttpRequest}
+  gem.description = %Q{This is a minimalistic middleware for EM::HttpRequest that adds support for multipart/form-data form encoding that is used mostly for file uploads.}
   gem.email = "ikapelyukhin@gmail.com"
   gem.authors = ["Ivan Kapelyukhin"]
   # dependencies defined in Gemfile
