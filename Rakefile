@@ -14,11 +14,11 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "em-http-request-multipart"
-  gem.homepage = "http://github.com/kotato/em-http-request-multipart"
+  gem.name = "eventmachine-middleware-multipart"
+  gem.homepage = "http://github.com/kotato/eventmachine-middleware-multipart"
   gem.license = "MIT"
-  gem.summary = %Q{Minimalistic multipart/form-data encoding support for EM::HttpRequest}
-  gem.description = %Q{This is a minimalistic middleware for EM::HttpRequest that adds support for multipart/form-data form encoding that is used mostly for file uploads.}
+  gem.summary = %Q{Multipart/form-data encoding support for EM::HttpRequest}
+  gem.description = %Q{This middleware for EM::HttpRequest adds support for multipart/form-data form encoding that is used mostly for file uploads.}
   gem.email = "ikapelyukhin@gmail.com"
   gem.authors = ["Ivan Kapelyukhin"]
   # dependencies defined in Gemfile
