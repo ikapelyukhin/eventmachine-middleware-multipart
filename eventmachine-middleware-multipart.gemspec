@@ -21,10 +21,12 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "eventmachine-middleware-multipart.gemspec",
     "lib/eventmachine-middleware-multipart.rb",
     "test/helper.rb",
     "test/test_eventmachine-middleware-multipart.rb"
